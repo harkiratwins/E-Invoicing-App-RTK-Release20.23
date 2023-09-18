@@ -1,0 +1,30 @@
+.horizontal {
+  width: 100%;
+}
+
+.select {
+  width: 250px;
+  height: 0px;
+  border: 1px solid black;
+  margin-left: 10px;
+  opacity: 0.1;
+}
+.describe {
+  width: 250px;
+  height: 0px;
+  border: 1px solid black;
+  margin-left: 10px;
+  opacity: 0.1;
+}
+.customRole {
+  margin-left: 5px;
+  background-color: #2485b1;
+  color: white;
+  /* width: 100px; */
+  font-weight: bold;
+  margin-right: 15px;
+}
+.customRole:hover {
+  background-color: white !important;
+  color: #2485b1 !important;
+}

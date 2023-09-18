@@ -1,0 +1,48 @@
+path {
+    color: black !important;
+  }
+  
+  img {
+    width: 200px;
+    height: 250px;
+  }
+  .ant-input-search {
+    width: 100% !important;
+  }
+  .rdx:hover {
+    background-color: azure !important;
+    color: #2485b1 !important;
+  }
+  .plusIcon {
+    background-color: white !important;
+  }
+  .ant-switch-checked {
+    background-color: #2485b1 !important;
+  }
+  
+  .ant-form-horizontal {
+    max-width: 100% !important;
+  }
+  
+  .ant-input {
+    width: 280px !important;
+  }
+  .ant-select {
+    width: 280px !important;
+  }
+  .ant-collapse {
+    width: 600px !important;
+  }
+  .ant-form-item-control-input {
+    width: 280px !important;
+  }
+  .PhoneInputInput{
+
+
+    height: 25px !important;
+
+    width: 60px !important;
+ 
+  
+  }
+  

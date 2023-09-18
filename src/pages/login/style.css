@@ -1,0 +1,86 @@
+.container{
+    border-radius: 40px;
+    width: 36%;
+    margin: auto;
+    height: 350px;
+    box-shadow: 1px 1px 1px 2px #eee;
+}
+
+.imagedev{
+    margin-top: 140px;
+    justify-content: center;
+    display: flex;
+}
+.image{
+    width: 30%;
+    padding: 20px;
+}
+.Inputs{
+    width: 150% !important;
+    margin: auto;
+    display: flex;
+    height: 50px;
+    border-radius: 13px;
+ margin-top: 9px
+}
+.msg{
+  color:blue !important;
+    margin-left: 60px !important;
+    width: 53%;
+    border-radius: 40px;
+
+}
+.btn{
+    width: 86px;
+    height: 39px;
+    margin-bottom: 12px !important;
+    background: rgb(36, 133, 177);
+}
+.btn:hover{
+    color: rgb(36, 133, 177) !important ;
+    background-color: white !important;
+    border:1px solid rgb(36, 133, 177) !important;
+}
+.btns{
+    width: 310%;
+    height: 39px;
+    margin-bottom: 12px !important;
+    background: rgb(36, 133, 177);
+}
+.btns:hover{
+    color: rgb(36, 133, 177) !important ;
+    background-color: white !important;
+    border:1px solid rgb(36, 133, 177) !important;
+}
+
+.forget{
+    font-size: initial;
+    font-family: inherit;
+    cursor: pointer;
+    color: rgb(36, 133, 177);
+    font-weight: 600;
+}
+
+path {
+    color: black !important;
+    opacity: 0.5;
+}
+.example {
+    margin: 20px 0;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  .foretEmail{
+    width: 100% !important;
+    height: 45px;
+    border-radius: 13px;
+  }
+ .modalboard{
+    width: 26% !important;
+ }
+ .ant-modal-title{
+    border-bottom: 1px solid black !important;
+ }

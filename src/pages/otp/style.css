@@ -1,0 +1,53 @@
+
+
+
+.j{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.verify{
+    margin-top: 45px;
+    width: 83px;
+    height: 39px    ;
+    background: rgb(36, 133, 177);
+    border: none;
+    border-radius: 10px;
+    margin-left: 160px !important;
+    font-size:16px;
+    font-weight: 100;
+    color: #eee;
+    /* margin: auto; */
+    
+ 
+}
+.verify:hover{
+    color: rgb(36, 133, 177) !important ;
+    background-color: white !important;
+    border:1px solid rgb(36, 133, 177) !important;
+}
+
+.cardss{
+    box-shadow: 1px 1px 1px 2px #eee;
+    text-align: 'center';
+    width: 400px;
+    margin: 'auto';
+    margin-top: 150px;
+    height: 242px;
+    margin-left: 490px;
+}
+
+.inputClas{
+    display: inline !important;
+}
+.inu{
+    width: 25px;
+    height: 25px;
+    margin: 46px 0px 0px 29px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,175 @@
+.header1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 700;
+  overflow: hidden;
+  width: 13ch;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.meta {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 0px 0px;
+  padding-bottom: 0ch;
+}
+
+.headerD {
+  height: 80px;
+  width: 100%;
+  background: colorBgContainer;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.hDispay {
+  float: right;
+}
+
+.hDispay1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hDispay2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.hDispay3 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.hDispay4 {
+  max-height: 100px;
+}
+
+.hDispay5 {
+  max-width: 600;
+}
+
+.btn1 {
+  align-items: right;
+  margin-left: 158px;
+}
+
+.btn2 {
+  align-items: right;
+  margin-left: 5px;
+}
+
+.text1 {
+  margin: 0px 10px;
+}
+
+.adminLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contentDisplay {
+  margin: 24px 16px;
+  padding: 24;
+  height: 700px;
+}
+
+.contentDisplay1 {
+  text-align: left;
+  font-weight: 100px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.contentDisplay2 {
+  float: right;
+  margin-bottom: 33px;
+}
+
+.contentDisplay3 {
+  width: 200px;
+  padding-right: 10px;
+}
+
+.contentDisplay4 {
+  text-align: left;
+  font-size: 1.28571429rem;
+}
+
+.contentDisplay4 {
+  padding: 20px;
+}
+
+.card1 {
+  background: #bb86fc;
+  color: white;
+  height: 200px;
+}
+.card2 {
+  background: #ff2d55;
+  color: white;
+  height: 146px;
+}
+.card3 {
+  background: #f1c40f;
+  color: white;
+  height: 146px;
+}
+.card4 {
+  background: #3498db;
+  color: white;
+  height: 146px;
+}
+
+.sidebardisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: white;
+}
+
+.imglogotop {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 200px;
+  height: 570px;
+  position: fixed;
+}
+
+.imglogo2 {
+  position: fixed;
+  width: 200px;
+  margin-left: 10px;
+  max-width: 200px;
+  margin-right: 20px;
+  max-height: 50px;
+  vertical-align: middle;
+  background-color: initial;
+}
+
+.iconbell {
+  font-size: 24px;
+}
+
+.iconpluss {
+  font-size: 15px;
+  margin: 0px 15px 0px 0px;
+}
+
+.belldropdown {
+  max-width: 50px;
+  overflow: scroll;
+}

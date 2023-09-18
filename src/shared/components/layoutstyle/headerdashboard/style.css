@@ -1,0 +1,238 @@
+.ui.image {
+  position: relative;
+  vertical-align: middle;
+  max-width: 100%;
+  width: 50px;
+  background-color: initial;
+  align-items: end;
+}
+
+.ui.right.floated.image,
+.ui.right.floated.images {
+  float: right;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.header1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 700;
+  overflow: hidden;
+  width: 13ch;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.meta {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 0px 0px;
+  padding-bottom: 0ch;
+}
+
+.headerD {
+  height: 80px;
+  width: 100%;
+  background: colorBgContainer;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.hDispay {
+  float: right;
+}
+
+.hDispay1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hDispay2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.hDispay3 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.hDispay4 {
+  max-height: 100px;
+}
+
+.hDispay5 {
+  width: 250px;
+}
+
+.btn1 {
+  display:inline-block;
+  margin-left:70px;
+  margin-Right:10px;
+ 
+}
+
+.btn2 {
+  /* align-items: right; */
+  margin-left: 5px;
+ display: inline-block !important;
+}
+
+.text1 {
+  margin: 0px 10px;
+}
+
+.adminLogo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contentDisplay {
+  margin: 24px 16px;
+  padding: 24;
+  height: 700px;
+}
+
+.contentDisplay1 {
+  text-align: left;
+  font-weight: 100px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.contentDisplay2 {
+  float: right;
+  margin-bottom: 33px;
+}
+
+.contentDisplay3 {
+  width: 200px;
+}
+
+.contentDisplay4 {
+  text-align: left;
+  font-weight: 700px;
+}
+
+.contentDisplay4 {
+  padding: 20px;
+}
+
+.card1 {
+  background: #bb86fc;
+  color: white;
+  height: 146px;
+}
+.card2 {
+  background: #ff2d55;
+  color: white;
+  height: 146px;
+}
+.card3 {
+  background: #f1c40f;
+  color: white;
+  height: 146px;
+}
+.card4 {
+  background: #3498db;
+  color: white;
+  height: 146px;
+}
+
+.sidebardisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: white;
+}
+
+.imglogotop {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 200px;
+  height: 570px;
+  position: fixed;
+}
+
+.imglogo2 {
+  width: 200px;
+  margin-left: 10px;
+  position: fixed;
+}
+
+.iconbell {
+  font-size: 24px;
+}
+
+.belldropdown {
+  max-width: 50px;
+  overflow: scroll;
+}
+
+.btn {
+  background-color: #008cba;
+  border: 2px solid #2485b1!important;
+  border-radius: 7px;
+  color: white;
+  min-height: 1em;
+  outline: 0;
+  vertical-align: initial;
+  background: #e0e1e2 none;
+  font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1em;
+  padding: 9px 20px;
+  margin: 0px 15px 0px 0px;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  display: inline-block;
+  width: 160px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+
+
+.btnAdd {
+  background-color: #008cba;
+  color: white;
+}
+
+.btnAdd:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+
+
+.ant-form-item-control-input{
+  width: 100%!important;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.ant-input-suffix{
+  justify-content: end!important;
+}
+.ant-modal-content {
+  width: 400px !important;
+}
