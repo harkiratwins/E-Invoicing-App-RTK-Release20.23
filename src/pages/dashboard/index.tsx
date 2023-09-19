@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import { Tabs } from "antd";
 import { Layout } from "antd";
 import "./style.css";
 import { Select, Row, Col, Card, theme } from "antd";
 import Headerdashboard from "../../shared/components/layoutstyle/headerdashboard";
 import Sidebardashboard from "../../shared/components/layoutstyle/sidebardashboard";
-import Collection from "../../assets/images/collection.svg";
-import Outstanding from "../../assets/images/Outstanding.svg";
-import overdue from "../../assets/images/overdue.svg";
-import client from "../../assets/images/client.svg";
+import ResponsiveSortableTable from "../../shared/components/ResponsiveSortableTable";
+// import Collection from "../../assets/images/collection.svg";
+// import Outstanding from "../../assets/images/Outstanding.svg";
+// import overdue from "../../assets/images/overdue.svg";
+// import client from "../../assets/images/client.svg";
 
 const { Content } = Layout;
 
+
+const { TabPane } = Tabs;
+
 const Dashboard: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>("Latest Invoices");
+
+  const handleTabChange = (key: string) => {
+    setActiveTab(key);
+  };
+
   const {
     token: { colorBgContainer },
   } = theme.useToken();
@@ -27,6 +38,7 @@ const Dashboard: React.FC = () => {
           className="contentDisplay"
           style={{
             background: colorBgContainer,
+            backgroundColor: "#e7e2e2",
           }}
         >
           <div className="">
@@ -80,7 +92,9 @@ const Dashboard: React.FC = () => {
               <Col span={6}>
                 <Card bordered={false} className="card1">
                   {/* <img src={Collection} alt="Collection" className="ui mini right floated image" /> */}
-                  <div title="--" className="header1">--</div>
+                  <div title="--" className="header1">
+                    --
+                  </div>
                   <div className="meta">Total Collected</div>
                 </Card>
               </Col>
@@ -91,7 +105,9 @@ const Dashboard: React.FC = () => {
                     alt="pic"
                     className="CardImg right floated"
                   /> */}
-                  <div title="--" className="header1">--</div>
+                  <div title="--" className="header1">
+                    --
+                  </div>
                   <div className="meta">Total Outstanding</div>
                 </Card>
               </Col>
@@ -102,7 +118,9 @@ const Dashboard: React.FC = () => {
                     alt="pic"
                     className="CardImg right floated"
                   /> */}
-                  <div title="--" className="header1">--</div>
+                  <div title="--" className="header1">
+                    --
+                  </div>
                   <div className="meta">Total Overdue</div>
                 </Card>
               </Col>
@@ -113,11 +131,31 @@ const Dashboard: React.FC = () => {
                     alt="pic"
                     className="CardImg right floated"
                   /> */}
-                  <div title="--" className="header1">0.00</div>
+                  <div title="--" className="header1">
+                    0.00
+                  </div>
                   <div className="meta">Total Client</div>
                 </Card>
               </Col>
             </Row>
+          </div>
+          <div style={{ padding: "20px" }}>
+            <div className="invoice-card">
+              <Tabs activeKey={activeTab} onChange={handleTabChange}>
+                <TabPane tab="Latest Invoices" key="Latest Invoices">
+                  <ResponsiveSortableTable type="latest" />
+                </TabPane>
+                <TabPane tab="Upcoming Invoices" key="Upcoming Invoices">
+                  <ResponsiveSortableTable type="upcoming" />
+                </TabPane>
+                <TabPane tab="Unpaid Invoices" key="Unpaid Invoices">
+                  <ResponsiveSortableTable type="unpaid" />
+                </TabPane>
+                <TabPane tab="Overdue Invoices" key="Overdue Invoices">
+                  <ResponsiveSortableTable type="overdue" />
+                </TabPane>
+              </Tabs>
+            </div>
           </div>
         </Content>
       </Layout>
